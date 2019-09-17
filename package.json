@@ -1,11 +1,23 @@
 {
   "name": "password-validator",
   "version": "1.0.0",
+  "description": "",
   "main": "handler.js",
-  "repository": "https://github.com/trekkerghost/serverless-password-validator.git",
-  "author": "Daniel Segovia",
-  "license": "MIT",
-  "dependencies": {
-    "zxcvbn": "^4.4.2"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trekkerghost/serverless-password-validator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trekkerghost/serverless-password-validator/issues"
+  },
+  "homepage": "https://github.com/trekkerghost/serverless-password-validator#readme",
+  "devDependencies": {
+    "serverless-offline": "^5.11.0"
   }
 }
