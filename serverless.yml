@@ -16,3 +16,8 @@ functions:
           method: get
 plugins:
   - serverless-offline
+  - serverless-plugin-include-dependencies
+
+package:
+  exclude:
+    - node_modules/**
