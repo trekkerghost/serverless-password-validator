@@ -1,0 +1,11 @@
+{
+  "name": "password-validator",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "repository": "https://github.com/trekkerghost/serverless-password-validator.git",
+  "author": "Daniel Segovia",
+  "license": "MIT",
+  "dependencies": {
+    "zxcvbn": "^4.4.2"
+  }
+}
